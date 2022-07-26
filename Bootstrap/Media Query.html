@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style type="text/css">
+        #D1 {
+            width: 200%;
+            height: 200%;
+            background-color: teal;
+        }
+
+        @media(min-width:600px) {
+            #D1 {
+                width: 100%;
+                height: 100%;
+                background-color: salmon;
+            }
+        }
+
+        @media(min-width:800px) {
+            #D1 {
+                width: 80%;
+                height: 80%;
+                background-color: darkcyan;
+            }
+        }
+
+        @media(min-width:1000px) {
+            #D1 {
+                width: 60%;
+                height: 60%;
+                background-color: firebrick;
+            }
+        }
+
+        @media(min-width:1500px) {
+            #D1 {
+                width: 30%;
+                height: 30%;
+                background-color: greenyellow;
+            }
+        }
+
+        @media(min-width:1600px) {
+            #D1 {
+                width: 20%;
+                height: 20%;
+                background-color: lawngreen;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="D1">
+        Media Query Demo
+    </div>
+</body>
+
+</html>
